@@ -1,0 +1,82 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+#spotlight-container {
+    width:100%;
+    height:100vh;
+    background: linear-gradient(45deg, rgba(173,50,255,0.4) 0%, rgba(0, 0, 0, 0) 100%), url('spotlight-image.jpg') no-repeat;
+    background-size:cover;
+}
+#navbar {
+    width:100%;
+    height:auto;
+    background-color: rgba(0,0,0,0.2);
+}
+#navbar-inner {
+    width:1250px;
+    margin-left:auto;
+    margin-right:auto;
+    height: 80px;
+    line-height: 80px;
+}
+#navbar-inner img {
+    float: left;
+    margin-top:22px;
+    padding-right: 30px;
+    border-right: 1px solid black;
+}
+#navbar-inner a {
+    float: left;
+    padding-left:35px;
+    padding-right:35px;
+    font-family: 'Kanit', sans-serif;
+    font-weight:500;
+    color: white;
+    font-size:16px;
+    text-decoration: none;
+}
+#navbar-inner a:hover {
+    background-color: white;
+    color:black;
+    transition: 0.3s;
+}
+#shop-info {
+    margin-top:10px;
+    width:240px;
+    height:70px;
+    line-height:30px;
+    float: right;
+}
+#shop-info span {
+    font-size:13px;
+    margin-left:10px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+#shop-info i {
+    color: deeppink;
+}
+#spotlight-content {
+    margin-top: 150px;
+    width:1250px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#spotlight-content h2 {
+    font-family:'Raleway', sans-serif;
+    color: #f4f4f4;
+    font-weight:400;
+    margin-bottom:5px;
+    padding:0px;
+    margin-top:0px;
+    font-size:22px;
+}
+#spotlight-content h1 {
+    font-family:'Raleway', sans-serif;
+    color: white;
+    margin-bottom:-25px;
+    padding:0px;
+    margin-top:0px;
+    font-size:90px;
+}
